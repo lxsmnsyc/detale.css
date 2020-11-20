@@ -25,31 +25,15 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-[data-detale-overscroll="auto"] {
-  overscroll-behavior: auto;
+[data-detale-flex-direction="row"] {
+  flex-direction: row;
 }
-[data-detale-overscroll="contain"] {
-  overscroll-behavior: contain;
+[data-detale-flex-direction="row-reverse"] {
+  flex-direction: row-reverse;
 }
-[data-detale-overscroll="none"] {
-  overscroll-behavior: none;
+[data-detale-flex-direction="column"] {
+  flex-direction: column;
 }
-[data-detale-overscroll-x="auto"] {
-  overscroll-behavior-x: auto;
+[data-detale-flex-direction="column-reverse"] {
+  flex-direction: column-reverse;
 }
-[data-detale-overscroll-x="contain"] {
-  overscroll-behavior-x: contain;
-}
-[data-detale-overscroll-x="none"] {
-  overscroll-behavior-x: none;
-}
-[data-detale-overscroll-y="auto"] {
-  overscroll-behavior-y: auto;
-}
-[data-detale-overscroll-y="contain"] {
-  overscroll-behavior-y: contain;
-}
-[data-detale-overscroll-y="none"] {
-  overscroll-behavior-y: none;
-}
-
