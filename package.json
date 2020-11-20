@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.8.11"
+  },
+  "name": "detale.css",
+  "version": "0.0.0",
+  "description": "Utility CSS using data attributes",
+  "main": "dist/detale.min.css",
+  "author": "Alexis Munsayac <alexis.munsayac@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "node build-css",
+    "prepublish": "node build-css"
+  }
+}
