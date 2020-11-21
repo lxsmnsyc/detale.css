@@ -25,39 +25,39 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-[data-detale-overflow="auto"] {
+[data-detale~="overflow-auto"] {
   overflow: auto;
 }
-[data-detale-overflow="hidden"] {
+[data-detale~="overflow-hidden"] {
   overflow: hidden;
 }
-[data-detale-overflow="scroll"] {
+[data-detale~="overflow-scroll"] {
   overflow: scroll;
 }
-[data-detale-overflow="visible"] {
+[data-detale~="overflow-visible"] {
   overflow: visible;
 }
-[data-detale-overflow-x="auto"] {
+[data-detale~="overflow-x-auto"] {
   overflow-x: auto;
 }
-[data-detale-overflow-x="hidden"] {
+[data-detale~="overflow-x-hidden"] {
   overflow-x: hidden;
 }
-[data-detale-overflow-x="scroll"] {
+[data-detale~="overflow-x-scroll"] {
   overflow-x: scroll;
 }
-[data-detale-overflow-x="visible"] {
+[data-detale~="overflow-x-visible"] {
   overflow-x: visible;
 }
-[data-detale-overflow-y="auto"] {
-  overflow-x: auto;
+[data-detale~="overflow-y-auto"] {
+  overflow-y: auto;
 }
-[data-detale-overflow-y="hidden"] {
-  overflow-x: hidden;
+[data-detale~="overflow-y-hidden"] {
+  overflow-y: hidden;
 }
-[data-detale-overflow-y="scroll"] {
-  overflow-x: scroll;
+[data-detale~="overflow-y-scroll"] {
+  overflow-y: scroll;
 }
-[data-detale-overflow-y="visible"] {
-  overflow-x: visible;
+[data-detale~="overflow-y-visible"] {
+  overflow-y: visible;
 }

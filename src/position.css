@@ -25,18 +25,18 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-[data-detale-position="static"] {
+[data-detale~="static"] {
   position: static;
 }
-[data-detale-position="fixed"] {
+[data-detale~="fixed"] {
   position: fixed;
 }
-[data-detale-position="absolute"] {
+[data-detale~="absolute"] {
   position: absolute;
 }
-[data-detale-position="relative"] {
+[data-detale~="relative"] {
   position: relative;
 }
-[data-detale-position="sticky"] {
+[data-detale~="sticky"] {
   position: sticky;
 }

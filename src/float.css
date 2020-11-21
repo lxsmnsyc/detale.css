@@ -25,12 +25,12 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-[data-detale-float="none"] {
+[data-detale~="float-none"] {
   float: none;
 }
-[data-detale-float="left"] {
+[data-detale~="float-left"] {
   float: left;
 }
-[data-detale-float="right"] {
+[data-detale~="float-right"] {
   float: right;
 }

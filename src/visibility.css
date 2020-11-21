@@ -25,13 +25,13 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-[data-detale-visibility="visible"] {
+[data-detale~="visible"] {
   visibility: visible;
 }
-[data-detale-visibility="hidden"] {
+[data-detale~="hidden"] {
   visibility: hidden;
 }
-[data-detale-visibility="collapse"] {
+[data-detale~="collapse"] {
   visibility: collapse;
 }
 

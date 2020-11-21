@@ -25,15 +25,27 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-[data-detale-object-position="bottom"] {
+[data-detale~="object-bottom"] {
   object-position: bottom;
 }
-[data-detale-object-position="left"] {
+[data-detale~="object-left"] {
   object-position: left;
 }
-[data-detale-object-position="right"] {
+[data-detale~="object-right"] {
   object-position: right;
 }
-[data-detale-object-position="top"] {
+[data-detale~="object-top"] {
   object-position: top;
+}
+[data-detale~="object-left-bottom"] {
+  object-position: left bottom;
+}
+[data-detale~="object-right-bottom"] {
+  object-position: right bottom;
+}
+[data-detale~="object-left-top"] {
+  object-position: left top;
+}
+[data-detale~="object-right-top"] {
+  object-position: right top;
 }

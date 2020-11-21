@@ -25,9 +25,9 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-[data-detale-pointer-events="none"] {
+[data-detale~="pointer-events-none"] {
   pointer-events: none;
 }
-[data-detale-pointer-events="auto"] {
+[data-detale~="pointer-events-auto"] {
   pointer-events: auto;
 }
