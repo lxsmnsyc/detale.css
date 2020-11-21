@@ -25,27 +25,18 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-@import './accessibility.css';
-@import './border-collapse.css';
-@import './box-sizing.css';
-@import './cursor.css';
-@import './clear.css';
-@import './display.css';
-@import './flex-direction.css';
-@import './flex-grow.css';
-@import './flex-shrink.css';
-@import './flex-wrap.css';
-@import './float.css';
-@import './justify-content.css';
-@import './justify-items.css';
-@import './object-fit.css';
-@import './object-position.css';
-@import './overflow.css';
-@import './overscroll.css';
-@import './pointer-events.css';
-@import './position.css';
-@import './resize.css';
-@import './select.css';
-@import './table-layout.css';
-@import './visibility.css';
-
+[data-detale~="justify-items-auto"] {
+  justify-items: auto;
+}
+[data-detale~="justify-items-start"] {
+  justify-items: start;
+}
+[data-detale~="justify-items-end"] {
+  justify-items: end;
+}
+[data-detale~="justify-items-stretch"] {
+  justify-items: stretch;
+}
+[data-detale~="justify-items-center"] {
+  justify-items: center;
+}
