@@ -25,26 +25,21 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-@import './accessibility.css';
-@import './border-collapse.css';
-@import './box-sizing.css';
-@import './cursor.css';
-@import './clear.css';
-@import './display.css';
-@import './flex-direction.css';
-@import './flex-grow.css';
-@import './flex-shrink.css';
-@import './flex-wrap.css';
-@import './float.css';
-@import './justify-content.css';
-@import './object-fit.css';
-@import './object-position.css';
-@import './overflow.css';
-@import './overscroll.css';
-@import './pointer-events.css';
-@import './position.css';
-@import './resize.css';
-@import './select.css';
-@import './table-layout.css';
-@import './visibility.css';
-
+[data-detale~="justify-start"] {
+  justify-content: flex-start;
+}
+[data-detale~="justify-end"] {
+  justify-content: flex-end;
+}
+[data-detale~="justify-center"] {
+  justify-content: center;
+}
+[data-detale~="justify-between"] {
+  justify-content: space-between;
+}
+[data-detale~="justify-around"] {
+  justify-content: space-around;
+}
+[data-detale~="justify-evenly"] {
+  justify-content: space-evenly;
+}
