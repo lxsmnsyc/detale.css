@@ -25,30 +25,21 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-@import './accessibility.css';
-@import './align-content.css';
-@import './align-items.css';
-@import './align-self.css';
-@import './border-collapse.css';
-@import './box-sizing.css';
-@import './cursor.css';
-@import './clear.css';
-@import './display.css';
-@import './flex-direction.css';
-@import './flex-grow.css';
-@import './flex-shrink.css';
-@import './flex-wrap.css';
-@import './float.css';
-@import './justify-content.css';
-@import './justify-items.css';
-@import './justify-self.css';
-@import './object-fit.css';
-@import './object-position.css';
-@import './overflow.css';
-@import './overscroll.css';
-@import './pointer-events.css';
-@import './position.css';
-@import './resize.css';
-@import './select.css';
-@import './table-layout.css';
-@import './visibility.css';
+[data-detale~="align-content-center"] {
+  align-content: center;
+}
+[data-detale~="align-content-start"] {
+  align-content: flex-start;
+}
+[data-detale~="align-content-end"] {
+  align-content: flex-end;
+}
+[data-detale~="align-content-space-between"] {
+  align-content: space-between;
+}
+[data-detale~="align-content-space-around"] {
+  align-content: space-around;
+}
+[data-detale~="align-content-space-evenly"] {
+  align-content: space-evenly;
+}
