@@ -25,31 +25,24 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-@import './accessibility.css';
-@import './align-content.css';
-@import './align-items.css';
-@import './align-self.css';
-@import './border-collapse.css';
-@import './box-sizing.css';
-@import './cursor.css';
-@import './clear.css';
-@import './display.css';
-@import './flex-direction.css';
-@import './flex-grow.css';
-@import './flex-shrink.css';
-@import './flex-wrap.css';
-@import './float.css';
-@import './justify-content.css';
-@import './justify-items.css';
-@import './justify-self.css';
-@import './object-fit.css';
-@import './object-position.css';
-@import './overflow.css';
-@import './overscroll.css';
-@import './place-content.css';
-@import './pointer-events.css';
-@import './position.css';
-@import './resize.css';
-@import './select.css';
-@import './table-layout.css';
-@import './visibility.css';
+[data-detale~="place-content-center"] {
+  place-content: center;
+}
+[data-detale~="place-content-start"] {
+  place-content: start;
+}
+[data-detale~="place-content-end"] {
+  place-content: end;
+}
+[data-detale~="place-content-space-between"] {
+  place-content: space-between;
+}
+[data-detale~="place-content-space-around"] {
+  place-content: space-around;
+}
+[data-detale~="place-content-space-evenly"] {
+  place-content: space-evenly;
+}
+[data-detale~="place-content-stretch"] {
+  place-content: stretch;
+}
