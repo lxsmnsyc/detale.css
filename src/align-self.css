@@ -25,28 +25,18 @@
  * @author Alexis Munsayac <alexis.munsayac@gmail.com>
  * @copyright Alexis Munsayac 2020
  */
-@import './accessibility.css';
-@import './align-self.css';
-@import './border-collapse.css';
-@import './box-sizing.css';
-@import './cursor.css';
-@import './clear.css';
-@import './display.css';
-@import './flex-direction.css';
-@import './flex-grow.css';
-@import './flex-shrink.css';
-@import './flex-wrap.css';
-@import './float.css';
-@import './justify-content.css';
-@import './justify-items.css';
-@import './justify-self.css';
-@import './object-fit.css';
-@import './object-position.css';
-@import './overflow.css';
-@import './overscroll.css';
-@import './pointer-events.css';
-@import './position.css';
-@import './resize.css';
-@import './select.css';
-@import './table-layout.css';
-@import './visibility.css';
+[data-detale~="align-self-auto"] {
+  align-self: auto;
+}
+[data-detale~="align-self-start"] {
+  align-self: flex-start;
+}
+[data-detale~="align-self-end"] {
+  align-self: flex-end;
+}
+[data-detale~="align-self-stretch"] {
+  align-self: stretch;
+}
+[data-detale~="align-self-center"] {
+  align-self: center;
+}
